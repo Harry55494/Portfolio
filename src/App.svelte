@@ -45,6 +45,7 @@
         user-select: none;
         min-height: 110%;
         overflow: visible;
+        overflow-x: hidden;
     }
 
     .main_container{
