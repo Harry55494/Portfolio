@@ -44,12 +44,14 @@
         background: #0e0e0e;
         user-select: none;
         min-height: 110%;
-        overflow: visible;
-        overflow-x: hidden;
     }
 
     .main_container{
         max-width: 1800px;
+        overflow-x: hidden;
+        position: absolute;
+        left: 0;
+        width: 100%;
     }
 
 

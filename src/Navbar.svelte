@@ -31,6 +31,7 @@
             link.style.animation = 'navLinkFade 0.5s ease forwards '+ (index / 7) + 's';
         });
 
+        // This adjusts the ability to scroll when the navbar is open
         if (document.body.style.overflowY === 'hidden') {
             setTimeout(() => {
                 document.body.style.overflowY = 'visible';
@@ -94,7 +95,7 @@
         position: absolute;
         margin: 2px auto;
         top: 0;
-        width: 99%;
+        width: 100%;
         max-width: 1800px;
         display: flex;
         justify-content: space-around;

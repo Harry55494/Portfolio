@@ -43,6 +43,7 @@
         justify-content: center;
         column-gap: 70px;
         row-gap: 40px;
+        overflow-x: hidden;
     }
 
     h2{
