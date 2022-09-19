@@ -54,7 +54,7 @@
 </script>
 
 
-<div class="container" id="projects_container">
+<div class="container" id="projects">
     <h1>Projects</h1>
 
     <h4>These are some of my best projects. <br>

@@ -1,5 +1,5 @@
 
-<div class = 'container' id = 'contact_container'>
+<div class = 'container' id ="contact">
     <h1>Contact & More</h1>
 
     <p>Have more questions? Want to see more? <br>

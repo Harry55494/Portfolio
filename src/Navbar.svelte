@@ -63,9 +63,9 @@
     </div>
     <ul class ="nav_links">
         <li><a href="#" on:click={hide_nav_bar}>Home</a></li>
-        <li><a href="#about_container" on:click={hide_nav_bar}>About</a></li>
-        <li><a href="#projects_container" on:click={hide_nav_bar}>Projects</a></li>
-        <li><a href="#contact_container" on:click={hide_nav_bar}>Contact</a></li>
+        <li><a href="#about" on:click={hide_nav_bar}>About</a></li>
+        <li><a href="#projects" on:click={hide_nav_bar}>Projects</a></li>
+        <li><a href="#contact" on:click={hide_nav_bar}>Contact</a></li>
     </ul>
     <div class = 'burger' on:click="{nav_slide}" on:cluck>
         <div class = 'line1'></div>
@@ -96,7 +96,7 @@
         margin: 2px auto;
         top: 0;
         width: 100%;
-        max-width: 1800px;
+        max-width: 1920px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -162,7 +162,7 @@
             position: absolute;
             right: 0;
             height: 95vh;
-            top: 9vh;
+            top: 7vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -173,7 +173,7 @@
         }
 
         :global(.nav_links li){
-            transform: translateY(-30px);
+            transform: translateY(-60px);
         }
 
         .nav_links{
@@ -204,7 +204,7 @@
     }
 
     :global(.toggle .line1) {
-        transform: rotate(-45deg) translateX(-5px) translateY(6px);
+        transform: rotate(-45deg) translateX(-5px) translateY(5px);
     }
 
     :global(.toggle .line2) {
@@ -212,7 +212,7 @@
     }
 
     :global(.toggle .line3) {
-        transform: rotate(45deg) translateX(-5px) translateY(-6px);
+        transform: rotate(45deg) translateX(-5px) translateY(-5px);
     }
 
 

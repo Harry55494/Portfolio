@@ -1,5 +1,5 @@
 
-<div class = 'container' id = 'about_container'>
+<div class = 'container' id ="about">
     <h1>About</h1>
     <p class="regular_text">
         My name's Harrison, and I'm a student studying an MSc in Computer Science at the University of Essex.

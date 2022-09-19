@@ -47,7 +47,7 @@
     }
 
     .main_container{
-        max-width: 1800px;
+        max-width: 1920px;
         overflow-x: hidden;
         position: absolute;
         left: 0;
