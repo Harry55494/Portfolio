@@ -89,12 +89,18 @@
         rating: 'Beginner',
         colour1: '#d04d16',
         colour2: '#d46a00',
-        },{
+        }, {
         title: "AWS",
         image: "devicon-amazonwebservices-plain",
         rating: "Beginner",
         colour1: "#253842",
         colour2: "#37464b",
+        },{
+        title: "Docker",
+        image: "devicon-docker-plain",
+        rating: "Beginner",
+        colour1: "#11a0cc",
+        colour2: "#0b95c4",
     }]
 
 </script>

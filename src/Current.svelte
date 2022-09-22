@@ -4,7 +4,7 @@
 </script>
 
 
-<h2 style="margin-top: 100px;">What I'm currently working on</h2>
+<h2>What I'm currently working on</h2>
 <p>
     As well as my third year final project at University (an AI for the board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>), I am currently
     working on my web development skills by using the framework <a href="https://svelte.dev">Svelte</a> to create this Portfolio Website. I'm also learning
@@ -22,6 +22,7 @@
         text-align: center;
         letter-spacing: 2px;
         color: white;
+        margin: 80px 20px 20px 20px;
 
     }
 
