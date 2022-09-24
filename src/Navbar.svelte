@@ -149,13 +149,11 @@
 
     :global(.nav_links li){
         list-style: none;
-    }
-
-    .nav_links li{
         color: white;
         text-decoration: none;
         letter-spacing: 3px;
         font-weight: 400;
+        cursor: pointer;
     }
 
     .burger div{
