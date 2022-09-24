@@ -1,5 +1,7 @@
 <script>
 
+    import {onMount} from "svelte";
+
     function adjustNavbarTransition(){
         /**
          * Changes the navbar animation when the window is resized, to prevent it automatically sliding to the right when the page is small enough
@@ -53,19 +55,45 @@
 
     }
 
+    onMount(() => {
+        function scrollToElement(elementName) {
+            console.log(elementName);
+            const element = document.getElementById(elementName);
+            element.scrollIntoView({behavior: "smooth"});
+            console.log('clicked')
+        }
+
+        const links = document.getElementsByClassName("nav_links");
+        const children = links[0].children;
+        console.log(children);
+        for (let i = 0; i < children.length; i++) {
+            let elementToScrollTo = children[i].innerHTML.toLowerCase();
+            if (elementToScrollTo === 'home'){
+                elementToScrollTo = 'nav'
+            }
+            console.log(elementToScrollTo)
+            children[i].addEventListener("click", hide_nav_bar);
+            children[i].addEventListener("click", function() {scrollToElement(elementToScrollTo)});
+        }
+
+        console.log('done')
+
+    });
+
+
 
 
 </script>
 
-<nav class = "border-gradient border-gradient-purple">
+<nav class = "border-gradient border-gradient-purple" id="nav">
     <div class = "title">
         <h4>Harrison Phillingham</h4>
     </div>
     <ul class ="nav_links">
-        <li><a href="#" on:click={hide_nav_bar}>Home</a></li>
-        <li><a href="#about" on:click={hide_nav_bar}>About</a></li>
-        <li><a href="#projects" on:click={hide_nav_bar}>Projects</a></li>
-        <li><a href="#contact" on:click={hide_nav_bar}>Contact</a></li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>
+        <li>Contact</li>
     </ul>
     <div class = 'burger' on:click="{nav_slide}" on:cluck>
         <div class = 'line1'></div>
@@ -123,7 +151,7 @@
         list-style: none;
     }
 
-    .nav_links a{
+    .nav_links li{
         color: white;
         text-decoration: none;
         letter-spacing: 3px;

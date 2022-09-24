@@ -14,7 +14,7 @@
 
 </script>
 
-<div class="container" id = "home_container">
+<div class="container" id = "home">
     <div class="flex_element">
         <h2><span class="waving_emoji">👋</span> Hey! I'm</h2>
         <div class = "gradient_background">
