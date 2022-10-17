@@ -76,10 +76,31 @@
         transform: scale3d(1.1, 1.1, 1.1);
     }
 
+    @media (max-width: 600px){
+        .container{
+            width: 250px;
+            height: 160px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    }
+
+
+    @media (max-width: 700px){
+        .container{
+            width: 300px;
+            height: 180px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    }
+
     @media (max-width: 768px){
         .container{
-            width: 500px;
-            height: 250px;
+            width: 400px;
+            height: 200px;
             margin-left: 0;
             margin-right: 0;
         }
