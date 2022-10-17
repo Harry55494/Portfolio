@@ -1,12 +1,12 @@
 
 <script>
-    export const last_updated = '16 Sep 2022'
+    export const last_updated = ' 17 Oct 2022'
 </script>
 
 
 <h2>What I'm currently working on</h2>
 <p>
-    As well as my third year final project at University (an AI for the board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>), I am currently
+    As well as my third year final project at University (an AI for the board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>, see <a href="#projects">Projects</a> below), I am currently
     working on my web development skills by using the framework <a href="https://svelte.dev">Svelte</a> to create this Portfolio Website. I'm also learning
     more about Kubernetes and Docker, and how to use them to deploy web applications. <br><br>
     As well as Web development, I'm also constantly working on my Python and Java skills, including making a TFL Tube

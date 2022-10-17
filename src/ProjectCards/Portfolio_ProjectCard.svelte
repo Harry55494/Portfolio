@@ -148,7 +148,7 @@
         }
 
         h2{
-            margin-top: 30px;
+            margin-top: 20px;
         }
 
         h3{

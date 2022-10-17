@@ -17,17 +17,16 @@
 </script>
 
 
-<div id ="jie_card" class="container">
+<div id = "catan_card" class="container">
     <div class="card" on:click={flip_card}>
         <div class="front">
-           <h2>Jefferson-IE</h2>
-            <h3>A Neural Network Crypto Trader</h3>
+            <h2>Conquerors of Catan</h2>
         </div>
         <div class="back">
-            <h4>Jefferson Investment Engine</h4>
-            <p>Jefferson-IE is a Python program that utilises TensorFlow and Neural Networks to predict crypto-currency prices,
-                and buy or sell based on these predictions. Current simulations predict a 17% monthly return when live trading.</p>
-            <p>Source Code is private for this project, but some parts can be shown upon request.</p>
+            <h4>Conquerors of Catan</h4>
+            <p>Conquerors of Catan is my final year project for my Bachelors degree.
+                It aims to implement Monte Carlo Tree Search in the board game Settlers of Catan to create a strong AI player. </p>
+            <p>Source Code is currently private, but will be released upon my project finishing</p>
         </div>
     </div>
 </div>
@@ -56,9 +55,14 @@
         cursor: pointer;
     }
 
+
     .front{
+        background-image: url("Catan-Background.png");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
         border-radius: 20px;
-        background-color: rgb(255, 210, 85);
         position: absolute;
         backface-visibility: hidden;
         width: 100%;
@@ -67,7 +71,7 @@
 
     .back{
         position: absolute;
-        background-color: rgb(255, 210, 85);
+        background: #eeeaea;
         border-radius: 20px;
         backface-visibility: hidden;
         width: 100%;
@@ -81,19 +85,15 @@
     }
 
     h2{
-        font-family: 'League Spartan', serif;
-        font-size: calc(min(20px + 6vw, 65px));
-        color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: 'Alkalami', serif;
+        font-size: calc(min(20px + 6vw, 60px));
+        color: white;
         text-align: center;
         margin-top: 100px;
-    }
-
-    h3{
-        font-size: calc(min(10px + 2vw, 25px));
-        color: black;
-        text-align: center;
-        margin-top: -30px;
-        font-weight: 500;
+        backdrop-filter: blur(5px);
     }
 
     h4, p{
@@ -102,18 +102,18 @@
     }
 
     h4{
-        font-size: 35px;
+        font-size: 45px;
         font-weight: 600;
-        font-family: 'League Spartan', serif;
+        font-family: 'Alkalami', serif;
         margin-bottom: 15px;
         margin-top: 40px;
     }
 
     p{
         margin: 12px;
-        font-size: calc(min(7px + 2vw, 18px));
+        font-size: calc(min(10px + 2vw, 20px));
+        font-family: 'Alkalami', serif;
     }
-
 
     @media (max-width: 600px){
         .container{
@@ -136,7 +136,6 @@
 
     }
 
-
     @media (max-width: 768px){
         .container{
             width: 400px;
@@ -146,7 +145,7 @@
         }
 
         h2{
-            margin-top: 50px;
+            margin-top: 60px;
         }
 
         h4{
@@ -154,8 +153,6 @@
         }
 
     }
-
-
 
 
 

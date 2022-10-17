@@ -4,6 +4,7 @@
     import StartPage_ProjectCard from "./ProjectCards/StartPage_ProjectCard.svelte";
     import JeffersonIE_ProjectCard from "./ProjectCards/JeffersonIE_ProjectCard.svelte";
     import Portfolio_ProjectCard from "./ProjectCards/Portfolio_ProjectCard.svelte";
+    import Catan_ProjectCard from "./ProjectCards/Catan_ProjectCard.svelte";
 
     function isInViewport(element){
         /**
@@ -33,7 +34,9 @@
 
         if (isInViewport(document.getElementById('start_page_card')) ||
             isInViewport(document.getElementById('portfolio_card')) ||
-            isInViewport(document.getElementById('jie_card'))){
+            isInViewport(document.getElementById('jie_card')) ||
+            isInViewport(document.getElementById('catan_card'))
+        ){
 
             if (!timerRunning && !card_clicked){
                 timerRunning = true
@@ -67,6 +70,7 @@
         <JeffersonIE_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <Portfolio_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
+        <Catan_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
     </div>
 
     <h4 style="margin-top: 40px;">Other, smaller projects may be found on my GitHub Page below</h4>
