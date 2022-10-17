@@ -71,7 +71,7 @@
 
     .footer-col{
         width: 25%;
-        padding: 0 15px;
+        padding: 0 15px 10px;
     }
 
     .footer-col h4{
