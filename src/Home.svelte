@@ -24,7 +24,7 @@
         <h3>A Student and Full Stack Developer from 🇬🇧</h3>
     </div>
     <div class="flex_element">
-        <img src="Portrait.png" alt = "Harrison">
+        <img src="/static/Portrait.png" alt = "Harrison">
     </div>
 
 </div>

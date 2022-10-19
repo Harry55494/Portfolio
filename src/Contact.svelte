@@ -28,7 +28,7 @@
     </div>
 
     <div style="display:flex;justify-content: center;">
-        <a href="CV.pdf" download="Harrison_Phillingham_CV.pdf">
+        <a href="/static/CV.pdf" download="Harrison_Phillingham_CV.pdf">
             <div id = "download_border">
                 <div class="cv_download">
                     ⬇️  Download CV

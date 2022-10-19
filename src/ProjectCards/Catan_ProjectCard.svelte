@@ -57,7 +57,7 @@
 
 
     .front{
-        background-image: url("Catan-Background.png");
+        background-image: url("/static/Catan-Background.png");
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
