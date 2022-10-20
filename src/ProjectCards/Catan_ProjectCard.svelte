@@ -70,14 +70,17 @@
     }
 
     .back{
+        background-size: 100% 100%;
+        overflow: hidden;
         position: absolute;
-        background: #eeeaea;
+        background: url("/static/Catan-Background-2.png") no-repeat center;
+        background-size: cover;
         border-radius: 20px;
         backface-visibility: hidden;
         width: 100%;
         height: 100%;
         transform: rotateY(180deg);
-        overflow: hidden;
+        color: white;
     }
 
     .container:hover{
@@ -97,7 +100,7 @@
     }
 
     h4, p{
-        color: black;
+        color: white;
         text-align: center;
     }
 
@@ -105,7 +108,7 @@
         font-size: 45px;
         font-weight: 600;
         font-family: 'Alkalami', serif;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         margin-top: 40px;
     }
 
