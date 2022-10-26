@@ -101,7 +101,13 @@
         rating: "Beginner",
         colour1: "#11a0cc",
         colour2: "#0b95c4",
-    }]
+        },{
+        title: "Matlab",
+        image: "devicon-matlab-plain",
+        rating: "Beginner",
+        colour1: "#9f281d",
+        colour2: "#f89910",
+        }]
 
 </script>
 
