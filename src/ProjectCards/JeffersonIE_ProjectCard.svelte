@@ -85,7 +85,7 @@
         font-size: calc(min(20px + 6vw, 65px));
         color: black;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     h3{

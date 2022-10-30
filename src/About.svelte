@@ -4,7 +4,7 @@
     <p class="regular_text">
         My name's Harrison, and I'm a student studying an MSc in Computer Science at the University of Essex.
         I'm currently in my third year of four, and am looking for a job in the industry for when I graduate.<br>
-        <br>My passions include Artificial Intelligence, Machine Learning and Computer Vision, alongside Web Development.<br>
+        <br>My passions include Artificial Intelligence and Machine Learning, Web Development, and Fintech.<br>
 
     </p>
 
