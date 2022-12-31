@@ -56,6 +56,12 @@
         rating: "Beginner",
         colour1: "#ec8318",
         colour2: "#e16113",
+        },{
+        title: "React",
+        image: "devicon-react-original",
+        rating: "Beginner",
+        colour1: "#4ac0e0",
+        colour2: "#48b3d0",
         }
     ]
 
@@ -83,7 +89,13 @@
         rating: "Intermediate",
         colour1: "#2e23c9",
         colour2: "#561098",
-        }, {
+        },{
+        title: "Docker",
+        image: "devicon-docker-plain",
+        rating: "Intermediate",
+        colour1: "#11a0cc",
+        colour2: "#0b95c4",
+        },{
         title: 'GitLab',
         image: 'devicon-gitlab-plain',
         rating: 'Beginner',
@@ -96,18 +108,13 @@
         colour1: "#253842",
         colour2: "#37464b",
         },{
-        title: "Docker",
-        image: "devicon-docker-plain",
-        rating: "Beginner",
-        colour1: "#11a0cc",
-        colour2: "#0b95c4",
-        },{
         title: "Matlab",
         image: "devicon-matlab-plain",
         rating: "Beginner",
         colour1: "#9f281d",
         colour2: "#f89910",
         }]
+
 
 </script>
 
