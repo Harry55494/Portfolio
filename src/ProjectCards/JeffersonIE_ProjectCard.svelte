@@ -26,8 +26,8 @@
         <div class="back">
             <h4>Jefferson Investment Engine</h4>
             <p>Jefferson-IE is a Python program that utilises TensorFlow and Neural Networks to predict crypto-currency prices,
-                and buy or sell based on these predictions. Current simulations predict a 17% monthly return when live trading.</p>
-            <p>Source Code is private for this project, but some parts can be shown upon request.</p>
+                and buy or sell based on these predictions.</p>
+            <p>The program is currently undergoing a rewrite into a new project, and so development under this name and title is no longer active</p>
         </div>
     </div>
 </div>
