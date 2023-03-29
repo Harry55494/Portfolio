@@ -1,6 +1,6 @@
 
 <script>
-    export const last_updated = ' 10 Feb 2023'
+    export const last_updated = ' 29 Mar 2023'
 </script>
 
 
@@ -8,8 +8,7 @@
 <p>
     Currently, I'm spending most of my time working on my third year final project at University, which is an AI for the board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>.
     This involves implementing different strategies for a range of AI players, and comparing which ones work the best. <br><br>
-    Outside of University, I'm currently using <a href="https://kit.svelte.dev">SvelteKit</a> to rewrite my Start Page, and will then re-write this website to use SvelteKit instead of Svelte, to allow me to use multiple pages later on.<br><br>
-    Finally, my JIE Investment Program (see <a href="#projects">Projects</a> below) is also undergoing a complete re-write from scratch, both changing the core functionality to trade different commodities/stocks, and also adding the use of new technologies such as Docker and Bucket Storage.
+    Outside of University, my JIE Investment Program (see <a href="#projects">Projects</a> below) is undergoing a complete re-write from scratch, both changing the core functionality to trade different commodities/stocks, and also adding the use of new technologies such as Docker and Bucket Storage.
 </p>
 <p class="last_updated">Last Updated: {last_updated}</p>
 
