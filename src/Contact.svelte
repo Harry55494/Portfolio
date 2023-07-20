@@ -29,9 +29,17 @@
 
     <div style="display:flex;justify-content: center;">
         <a href="/static/CV.pdf" download="Harrison_Phillingham_CV.pdf">
-            <div id = "download_border">
+            <div class = "download_border">
                 <div class="cv_download">
                     ⬇️  Download CV
+                </div>
+            </div>
+        </a>
+
+        <a href="/static/Report.pdf" download="Conquerors-of-Catan-Harrison-Phillingham.pdf">
+            <div class = "download_border">
+                <div class="cv_download">
+                    ⬇️  Download Report
                 </div>
             </div>
         </a>
@@ -106,9 +114,10 @@
         transform: translateY(-50%);
     }
 
-    #download_border{
+    .download_border{
         height: 75px;
         width: 225px;
+        margin: 20px;
         background:linear-gradient(330deg, #00dbde, #fc00ff) right;
         border-radius: 10px;
         text-align: center;
@@ -120,12 +129,12 @@
 
     }
 
-    #download_border:hover, #download_border:focus, .contact_a_border:hover, .contact_a_border:focus{
+    .download_border:hover, #download_border:focus, .contact_a_border:hover, .contact_a_border:focus{
         transform: scale3d(1.1, 1.1, 1.1);
 
     }
 
-    #download_border:active, .contact_a_border:active{
+    .download_border:active, .contact_a_border:active{
         transform: scale(0.9);
         transition: 0.4s;
     }

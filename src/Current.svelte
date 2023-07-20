@@ -6,9 +6,9 @@
 
 <h2>What I'm currently working on</h2>
 <p>
-    Currently, I'm spending most of my time working on my third year final project at University, which is an AI for the board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>.
-    This involves implementing different strategies for a range of AI players, and comparing which ones work the best. <br><br>
-    Outside of University, my JIE Investment Program (see <a href="#projects">Projects</a> below) is undergoing a complete re-write from scratch, both changing the core functionality to trade different commodities/stocks, and also adding the use of new technologies such as Docker and Bucket Storage.
+    I've currently just finished my third year CS degree project, which is an AI for the board game <a href="https://en.wikipedia.org/wiki/Catan">Settlers of Catan</a>.
+    This involved implementing different strategies for a range of AI players, and comparing which ones work the best.
+    If you want to see the project, or read the full report, checkout the <a href="#projects">Projects</a> section below. <br><br>
 </p>
 <p class="last_updated">Last Updated: {last_updated}</p>
 

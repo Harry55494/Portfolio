@@ -34,8 +34,8 @@
         </div>
         <div class="back_portfolio_card">
             <h3>Portfolio Website</h3>
-            <p>This website is built using Svelte, and the source code is available to view on my GitHub profile. It uses no libraries, and all the code was written by me.</p>
-            <p>Source Code: <a href="https://github.com/Harry55494/portfolio" target="_blank">github.com/Harry55494/<br>portfolio</a></p>
+            <p>This website is built using Svelte, uses no external libraries and the source code is available to view on my GitHub profile.<br><br></p>
+            <p><a href="https://github.com/Harry55494/portfolio" target="_blank">Source Code (GitHub)</a></p>
         </div>
     </div>
 </div>

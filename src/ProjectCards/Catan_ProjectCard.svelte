@@ -24,9 +24,9 @@
         </div>
         <div class="back">
             <h4>Conquerors of Catan</h4>
-            <p>Conquerors of Catan is my final year project for my Bachelors degree.
-                It aims to implement Monte Carlo Tree Search in the board game Settlers of Catan to create a strong AI player. </p>
-            <p>Source Code is currently private, but will be released upon my project finishing</p>
+            <p>Conquerors of Catan is my third year project for my CS degree, aimed at using the MiniMax algorithm to play Settlers, along with comparing various strategies. </p>
+            <p><a href="/static/Report.pdf" download="Conquerors-of-Catan-Harrison-Phillingham.pdf">Download Report</a></p>
+            <p><a href="https://github.com/Harry55494/Conquerors-of-Catan" target="_blank">Source Code (GitHub)</a></p>
         </div>
     </div>
 </div>
@@ -116,6 +116,10 @@
         margin: 12px;
         font-size: calc(min(10px + 2vw, 20px));
         font-family: 'Alkalami', serif;
+    }
+
+    a {
+        color: white;
     }
 
     @media (max-width: 600px){

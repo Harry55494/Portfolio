@@ -67,10 +67,11 @@
     </h4>
 
     <div class = "card_container">
-        <JeffersonIE_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
-        <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
-        <Portfolio_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <Catan_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
+        <Portfolio_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
+        <!-- <JeffersonIE_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/> -->
+        <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
+
     </div>
 
     <h4 style="margin-top: 40px;">Other, smaller projects may be found on my GitHub Page below</h4>

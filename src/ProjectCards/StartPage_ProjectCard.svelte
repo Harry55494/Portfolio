@@ -40,8 +40,8 @@
             <h5>Start Page</h5>
             <p>Start Page is a small and simple Svelte-based web page which I used to get a handle on Svelte. It includes Svelte stores for setting storage,
                 an animated particle background, and a device-based dark mode.</p>
-            <p>View it live here: <a href="https://start.phillingham.com" target="_blank">start.phillingham.com</a></p>
-            <p>Source Code: <a href="https://github.com/Harry55494/Start-page" target="_blank">github.com/Harry55494/start-page</a></p>
+            <p>Live Demo: <a href="https://start.phillingham.com" target="_blank">start.phillingham.com</a></p>
+            <p><a href="https://github.com/Harry55494/Start-page" target="_blank">Source Code (GitHub)</a></p>
         </div>
     </div>
 </div>
