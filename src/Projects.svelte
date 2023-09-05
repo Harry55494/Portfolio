@@ -70,7 +70,7 @@
         <Catan_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <Portfolio_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <!-- <JeffersonIE_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/> -->
-        <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
+        <!-- <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/> -->
 
     </div>
 
