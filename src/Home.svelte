@@ -24,7 +24,7 @@
         <h3>A Student and Full Stack Developer from 🇬🇧</h3>
     </div>
     <div class="flex_element">
-        <img src="/static/Portrait.png" alt = "Harrison">
+        <img src="/static/IMG_2845.jpeg" alt = "Harrison">
     </div>
 
 </div>
@@ -98,11 +98,9 @@
     img{
         width: calc(min(50px + 50vw, 350px));
         height: auto;
-        border-bottom: white solid 4px;
-        border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
-        padding: 0 0.7em 0 0.5em;
+        border: white solid 4px;
         transform: translateZ(0);
+        border-radius: 50%;
     }
 
     .waving_emoji{
