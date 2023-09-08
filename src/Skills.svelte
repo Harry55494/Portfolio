@@ -56,12 +56,6 @@
         rating: "Beginner",
         colour1: "#ec8318",
         colour2: "#e16113",
-        },{
-        title: "React",
-        image: "devicon-react-original",
-        rating: "Beginner",
-        colour1: "#4ac0e0",
-        colour2: "#48b3d0",
         }
     ]
 
@@ -101,12 +95,6 @@
         rating: 'Beginner',
         colour1: '#d04d16',
         colour2: '#d46a00',
-        }, {
-        title: "AWS",
-        image: "devicon-amazonwebservices-plain",
-        rating: "Beginner",
-        colour1: "#253842",
-        colour2: "#37464b",
         },{
         title: "Matlab",
         image: "devicon-matlab-plain",
