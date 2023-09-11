@@ -1,6 +1,6 @@
 # Portfolio Website
 
-⚡View it live here: [harrison.phillingham.com](https://harrison.phillingham.com)
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-Visit%20Website-brightgreen?logo=github)](https://harrison.phillingham.com)
 
 ## Overview
 
