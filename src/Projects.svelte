@@ -5,6 +5,7 @@
     import JeffersonIE_ProjectCard from "./ProjectCards/JeffersonIE_ProjectCard.svelte";
     import Portfolio_ProjectCard from "./ProjectCards/Portfolio_ProjectCard.svelte";
     import Catan_ProjectCard from "./ProjectCards/Catan_ProjectCard.svelte";
+    import Galahad_ProjectCard from "./ProjectCards/Galahad_ProjectCard.svelte";
 
     function isInViewport(element){
         /**
@@ -60,7 +61,7 @@
 <div class="container" id="projects">
     <h1>Projects</h1>
 
-    <h4>These are some of my best projects. <br>
+    <h4>These are some of my projects. <br>
         They are all in various stages of completion, as I work on them around my University schedule.<br><br>
         Click on a card to find out more!
 
@@ -68,6 +69,7 @@
 
     <div class = "card_container">
         <Catan_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
+        <Galahad_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <Portfolio_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
         <!-- <JeffersonIE_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/> -->
         <!-- <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/> -->
