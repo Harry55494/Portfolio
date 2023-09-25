@@ -35,14 +35,6 @@
                 </div>
             </div>
         </a>
-
-        <a href="/static/Report.pdf" download="Conquerors-of-Catan-Harrison-Phillingham.pdf">
-            <div class = "download_border">
-                <div class="cv_download">
-                    ⬇️  Download Report
-                </div>
-            </div>
-        </a>
     </div>
 </div>
 
@@ -150,6 +142,7 @@
         width: 220px;
         background: #0e0e0e;
         border-radius: 10px;
+        margin: 5px;
     }
 
     @media (max-width: 768px) {
