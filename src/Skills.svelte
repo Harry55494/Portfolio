@@ -56,7 +56,13 @@
         rating: "Beginner",
         colour1: "#ec8318",
         colour2: "#e16113",
-        }
+        }, {
+        title: "Kotlin",
+        image: "devicon-kotlin-plain",
+        rating: "Beginner",
+        colour1: "#D52D9C",
+        colour2: "#7F51FF",
+    }
     ]
 
     let skills = [{
