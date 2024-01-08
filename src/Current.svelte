@@ -5,7 +5,7 @@
 
 
 <h2>What I'm currently working on</h2>
-<p>
+<p class="regular_text">
     Currently, I'm spending most of my time on 'Galahad', an algorithmic trading program, which is the reincarnation of Jefferson-IE (previously mentioned here).
     Galahad is designed to be more flexible, and use more modern technologies, such as Docker and Cloudflare R2 Storage. More updates on this soon.
      <br><br>
@@ -31,16 +31,6 @@
     a{
         text-decoration: underline;
         color: white;
-    }
-
-    p {
-        margin-left:calc(min(-10px + 10vw, 150px));
-        margin-right:calc(min(-10px + 10vw, 150px));
-        font-size: calc(min(15px + 1vw, 22px));
-        text-align: left;
-        color: white;
-        line-height: 1.5;
-        font-weight: 300;
     }
 
     .last_updated {

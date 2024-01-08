@@ -29,21 +29,21 @@
         },{
         title: "JavaScript",
         image: "devicon-javascript-plain",
-        rating: "Intermediate",
+        rating: "Beginner",
         colour1: "#ceb91c",
         colour2: "#c4ad1b",
-        },{
-        title: "C++",
-        image: "devicon-cplusplus-plain",
-        rating: "Intermediate",
-        colour1: "#25b9f9",
-        colour2: "#24d0a2",
         },{
         title: "Svelte",
         image: "devicon-svelte-plain",
         rating: "Beginner",
         colour1: "#e56926",
         colour2: "#ea5708",
+        },{
+        title: "C++",
+        image: "devicon-cplusplus-plain",
+        rating: "Beginner",
+        colour1: "#25b9f9",
+        colour2: "#24d0a2",
         },{
         title: "PHP",
         image: "devicon-php-plain",
@@ -78,12 +78,6 @@
         colour1: "#00a1e4",
         colour2: "#00b5e2",
         },{
-        title: "Git",
-        image: "devicon-git-plain",
-        rating: "Intermediate",
-        colour1: "#d92828",
-        colour2: "#e04646",
-        },{
         title: "GitHub",
         image: "devicon-github-plain",
         rating: "Intermediate",
@@ -95,6 +89,12 @@
         rating: "Intermediate",
         colour1: "#11a0cc",
         colour2: "#0b95c4",
+        },{
+        title: "Git",
+        image: "devicon-git-plain",
+        rating: "Beginner",
+        colour1: "#d92828",
+        colour2: "#e04646",
         },{
         title: 'GitLab',
         image: 'devicon-gitlab-plain',
@@ -114,6 +114,7 @@
 
 <div class="container" id = "skills_container">
     <h2>Programming Languages / Frameworks</h2>
+
     <div class="tile_container">
         {#each languages as language}
             <SkillTile title={language.title} image={language.image} rating ={language.rating} colour1={language.colour1} colour2={language.colour2}></SkillTile>
@@ -146,7 +147,7 @@
     }
 
     .tile_container{
-        width: 100%;
+        width: 75%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

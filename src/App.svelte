@@ -1,8 +1,7 @@
 
 <script>
 
-    // Having a poke around in the code? Good! Feel free to ask me any questions via email :)
-    // mailto:harrison@phillingham.com
+    // :)
 
     import Navbar from './Navbar.svelte';
     import Home from './Home.svelte';
@@ -12,7 +11,6 @@
     import Projects from "./Projects.svelte";
     import Contact from "./Contact.svelte";
     import Footer from './Footer.svelte';
-
 
 </script>
 
@@ -52,6 +50,16 @@
         position: absolute;
         left: 0;
         width: 100%;
+    }
+
+    :global(.regular_text){
+        margin-left:calc(min(-10px + 10vw, 150px));
+        margin-right:calc(min(-10px + 10vw, 150px));
+        font-size: calc(min(15px + 1vw, 22px));
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 300;
+        color: #fff;
     }
 
 

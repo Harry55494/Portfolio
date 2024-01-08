@@ -70,8 +70,8 @@
     :global(.tile){
         border-radius: 35px;
         background: black;
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
         margin: 8px;
         transform: perspective(1000px);
         overflow: hidden;
@@ -112,7 +112,7 @@
     }
 
     :global(img){
-        height: 60px;
+        height: 50px;
         width: auto;
         color: white;
         margin-top: 0px;
@@ -122,16 +122,16 @@
 
     :global(.title){
         color: white;
-        font-size: 30px;
-        margin-top: 15px;
+        font-size: 25px;
+        margin-top: 18px;
         margin-left: 15px;
         transform: translateZ(20px);
     }
 
     :global(.subtitle){
         color: white;
-        font-size: 22px;
-        margin-top: -15px;
+        font-size: 19px;
+        margin-top: -18px;
         margin-left: 15px;
         font-weight: 600;
         transform: translateZ(20px);

@@ -2,9 +2,6 @@
 <div class = 'container' id ="contact">
     <h1>Contact & More</h1>
 
-    <p>Have more questions? Want to see more? <br>
-    </p>
-
     <div style="display:flex; justify-content: center; align-items: center; padding-bottom: 40px; flex-wrap: wrap;">
         <div class="contact_a_border">
             <a class="contact_a" href="https://github.com/harry55494">

@@ -61,11 +61,11 @@
 <div class="container" id="projects">
     <h1>Projects</h1>
 
-    <h4>These are some of my projects. <br>
+    <p class="regular_text">These are some of my projects. <br>
         They are all in various stages of completion, as I work on them around my University schedule.<br><br>
         Click on a card to find out more!
 
-    </h4>
+    </p>
 
     <div class = "card_container">
         <Catan_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/>
@@ -75,8 +75,6 @@
         <!-- <StartPage_ProjectCard parentCardClicked={()=>{card_clicked = true; checkForProjectClickTooltip()}}/> -->
 
     </div>
-
-    <h4 style="margin-top: 40px;">Other, smaller projects may be found on my GitHub Page below</h4>
 
 </div>
 
@@ -102,14 +100,6 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-    }
-
-    h4{
-        font-size: calc(min(15px + 1vw, 22px));
-        font-weight: 300;
-        text-align: center;
-        margin-bottom: 40px;
-        line-height: 1.5;
     }
 
     :global(#project_card_tooltip){

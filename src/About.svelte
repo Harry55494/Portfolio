@@ -2,10 +2,11 @@
 <div class = 'container' id ="about">
     <h1>About</h1>
     <p class="regular_text">
-        My name's Harrison, and I'm a student studying an MSc in Computer Science at the University of Essex.
-        I'm currently in my third year of four, and am looking for a job in the industry for when I graduate.<br>
-        <br>My passions include Artificial Intelligence and Machine Learning, Web Development, and Fintech.<br>
-
+        My name's Harrison, and I'm an MSc Computer Science student studying at the University of Essex.
+        I'm currently in my final year, and am looking for a job in the industry for when I graduate. My main areas of interest
+        include Artificial Intelligence, Neural Nets, Machine Learning, and Fintech, but I'm always open to new things!<br><br>
+        Outside of Computer Science, I'm a lover of the outdoors, and enjoy running, hiking and camping. I also maintain a
+        homelab, and enjoy tinkering with new technologies and software in my spare time.
     </p>
 
 </div>
@@ -32,15 +33,6 @@
         text-align: center;
         letter-spacing: 2px;
         padding-top: 20px;
-    }
-
-    p {
-        margin-left:calc(min(-10px + 10vw, 150px));
-        margin-right:calc(min(-10px + 10vw, 150px));
-        font-size: calc(min(15px + 1vw, 22px));
-        text-align: left;
-        line-height: 1.5;
-        font-weight: 300;
     }
 
 </style>

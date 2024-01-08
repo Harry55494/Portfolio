@@ -21,7 +21,7 @@
             <h1 class = "line1">Harrison</h1>
             <h1 class = "line2">Phillingham</h1>
         </div>
-        <h3>A Student and Full Stack Developer from 🇬🇧</h3>
+        <h3>An MSc Computer Science Student from 🇬🇧</h3>
     </div>
     <div class="flex_element">
         <img src="/static/IMG_2845.jpeg" alt = "Harrison">
