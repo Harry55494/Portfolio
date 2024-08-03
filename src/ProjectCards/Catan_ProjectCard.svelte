@@ -25,7 +25,6 @@
         <div class="back">
             <h4>Conquerors of Catan</h4>
             <p>Conquerors of Catan is my third year project for my CS degree, aimed at using the MiniMax algorithm to play Settlers, along with comparing various strategies. </p>
-            <p><a href="/static/Report.pdf" download="Conquerors-of-Catan-Harrison-Phillingham.pdf">Download Report</a></p>
             <p><a href="https://github.com/Harry55494/Conquerors-of-Catan" target="_blank">Source Code (GitHub)</a></p>
         </div>
     </div>
