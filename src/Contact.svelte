@@ -23,7 +23,7 @@
         </div>
 
     </div>
-
+<!--
     <div style="display:flex;justify-content: center;">
         <a href="/static/CV.pdf" download="Harrison_Phillingham_CV.pdf">
             <div class = "download_border">
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </a>
-    </div>
+    </div>-->
 </div>
 
 
