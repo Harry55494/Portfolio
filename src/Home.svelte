@@ -24,7 +24,7 @@
         <h3>An MSc Computer Science Student from 🇬🇧</h3>
     </div>
     <div class="flex_element">
-        <img src="/static/IMG_2845.jpeg" alt = "Harrison">
+        <img src="/static/IMG_2846.png" alt = "Harrison">
     </div>
 
 </div>
